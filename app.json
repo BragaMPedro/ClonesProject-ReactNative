@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "p1-ataqueClones",
+    "slug": "p1-ataqueClones",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "assets/amazicon-mimo.png",
+    "userInterfaceStyle": "light",
+    
+    "splash": {
+      "image": "assets/splash-mimo.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#1B1D2A"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "assets/adaptive-mimo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.anonymous.p1ataqueClones"
+    },
+    "web": {
+      "favicon": "assets/favicon-mimo.png"
+    }
+  }
+}
