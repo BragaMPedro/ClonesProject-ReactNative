@@ -1,15 +1,19 @@
 import { StyleSheet } from "react-native";
+import Constants from "expo-constants"
 
 export const styles = StyleSheet.create({
     container: {
         flexDirection: "row",
         alignContent: "center",
         justifyContent: "space-between",
-        paddingTop: 40,
+        paddingTop: Constants.statusBarHeight,
         paddingHorizontal: 15,
         marginBottom: 10,
         height: 80,
         width: "100%",
+        position: "absolute",
+        zIndex: 1,
+        backgroundColor: "#1B1D2A00",
     },
 
     titleList: {
@@ -31,8 +35,8 @@ export const styles = StyleSheet.create({
         color: "#ffffff",
         opacity: 0.5,
     },
-    
-    searchIcon:{
+
+    searchIcon: {
         color: "#D4DACF",
         fontSize: 30,
     },
