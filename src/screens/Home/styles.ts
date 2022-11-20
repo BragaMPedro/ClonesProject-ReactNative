@@ -9,8 +9,6 @@ export const styles = StyleSheet.create({
 
     scrollContainer: {
         flex: 1,
-
-
     },
 
     content: {
